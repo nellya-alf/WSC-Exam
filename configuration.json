@@ -1,0 +1,15 @@
+{
+    "queues": [
+        {
+            "storage_account": "wsc-devops-test-queue",
+            "primary_key": "G49+lB15B3Gmrhd/1AJSW971apyEhaxaMCFhDTmf2m+OpUHIaHEyeOaHOjFNQm5ZKJz7SfvDVLYSCaMJJaJMGQ==",
+            "queue_name": "wsc-devops-test-queue",
+            "deployments": [
+                {
+                    "namespace": "wsc",
+                    "name": "devopsexam"
+                }
+            ]
+        }
+    ]  
+}
