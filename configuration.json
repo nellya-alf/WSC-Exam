@@ -2,7 +2,7 @@
     "queues": [
         {
             "storage_account": "wsc-devops-test-queue",
-            "primary_key": "G49+lB15B3Gmrhd/1AJSW971apyEhaxaMCFhDTmf2m+OpUHIaHEyeOaHOjFNQm5ZKJz7SfvDVLYSCaMJJaJMGQ==",
+            "primary_key": "",
             "queue_name": "wsc-devops-test-queue",
             "deployments": [
                 {
@@ -11,5 +11,10 @@
                 }
             ]
         }
-    ]  
+    ],
+    "cluster":{
+        "name": "wsc-devops-exam-cluster-1",
+        "resource_group":"wsc-devops-exam-rg-1"
+    },
+    "user": "DevOpsExam1@wsc-sports.com" 
 }

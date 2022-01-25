@@ -1,4 +1,12 @@
 from kubernetes import client, config
+from az.cli import az
+
+def login_to_aks(user, cluster, resource_group,password):
+    az_args = f"login -u {user} -p {password}"
+    az(az_args)
+    aks_args = f"aks get-credentials --name {cluster} --resource-group {resource_group}"
+    az(aks_args)
+
 
 def get_current_deployment_scale(name, namespace, client):
     """
