@@ -30,7 +30,7 @@ def main():
     queue_client = None
 
     # Set Kubernetes Client
-    kubernetes_helper.login_to_azure(user, cluster, cluster_rg, password)
+    kubernetes_helper.login_to_aks(user, cluster, cluster_rg, password)
     config.load_kube_config()
     app_client = client.AppsV1Api()
 
