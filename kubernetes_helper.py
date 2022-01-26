@@ -1,7 +1,8 @@
 from kubernetes import client, config
 from az.cli import az
 
-def login_to_aks(user, cluster, resource_group,password):
+
+def login_to_aks(user, cluster, resource_group, password):
     """
     Login to Azure account, and gets the aks credentials
 

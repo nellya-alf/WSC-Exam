@@ -25,8 +25,8 @@ def main():
     user = parsed_data["user"]
     cluster = parsed_data["cluster"]["name"]
     cluster_rg = parsed_data["cluster"]["resource_group"]
-    kube_pass = " " # The AKS cred pass
-    
+    kube_pass = " "  # The AKS cred pass
+
     storage_account = ""
     queue_client = None
 

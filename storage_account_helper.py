@@ -2,6 +2,7 @@ from azure.storage.queue import (
     QueueClient
 )
 
+
 def get_queue_length(queue_client):
     """
     Get the approximate length of a given queue client

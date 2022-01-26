@@ -1,5 +1,5 @@
 # Autoscaler Application
-The application get a list of queues , check the number of their messages and scale the related queue deployment.
+The application get a list of Storage Account Queues, check the number of their messages and scale configure AKS deployments.
 
 ### Prerequisites
 
