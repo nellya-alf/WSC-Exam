@@ -15,7 +15,6 @@ def get_json_configurations(json_file):
 
     return parsed_dict
 
-
 def main():
 
     # Set configurations
