@@ -2,6 +2,16 @@ from kubernetes import client, config
 from az.cli import az
 
 def login_to_aks(user, cluster, resource_group,password):
+    """
+    Login to Azure account, and gets the aks credentials
+
+    Parameters
+    ----------
+    user: Azure user
+    cluster: AKS cluster name
+    resource_group: AKS resource group
+    password: Azure user pass
+    """
     az_args = f"login -u {user} -p {password}"
     az(az_args)
     aks_args = f"aks get-credentials --name {cluster} --resource-group {resource_group}"

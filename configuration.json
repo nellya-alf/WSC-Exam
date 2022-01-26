@@ -2,7 +2,7 @@
     "queues": [
         {
             "storage_account": "wsc-devops-test-queue",
-            "primary_key": "",
+            "primary_key": "The primary key of the storage account",
             "queue_name": "wsc-devops-test-queue",
             "deployments": [
                 {

@@ -3,6 +3,4 @@ The application get a list of queues , check the number of their messages and sc
 
 ### Prerequisites
 
-* Python 3.9
-
-
+* Python 3.8

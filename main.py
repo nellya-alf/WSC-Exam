@@ -25,12 +25,13 @@ def main():
     user = parsed_data["user"]
     cluster = parsed_data["cluster"]["name"]
     cluster_rg = parsed_data["cluster"]["resource_group"]
-    password = ""
+    kube_pass = " " # The AKS cred pass
+    
     storage_account = ""
     queue_client = None
 
     # Set Kubernetes Client
-    kubernetes_helper.login_to_aks(user, cluster, cluster_rg, password)
+    kubernetes_helper.login_to_aks(user, cluster, cluster_rg, kube_pass)
     config.load_kube_config()
     app_client = client.AppsV1Api()
 
